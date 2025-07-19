@@ -31,8 +31,8 @@ function startTimer(){
     if(msec == 100){
         msec = 0;
         secs++;
-        if(sec == 60){
-            sec = 0;
+        if(secs == 60){
+            secs = 0;
             mins++;
 
         }
